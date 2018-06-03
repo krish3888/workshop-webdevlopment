@@ -3,27 +3,36 @@
 <head>
 	<title>Adventures</title>
 </head>
-<body background="C:\Users\USER\Pictures\adventure.JPG" >
-	<header>
-		<font size="+3" color="black"><b>WELCOME TO ADVENTURES WORLD</b></font>
-	</header>
-
+<body background="C:\Users\USER\Python Pro\spychat\adventure.JPG" >
+	<center>
+		<font size="+3" color="black"><b>Welcome To Adventure Tours in Uttarakhand</b></font>
+	</center>
+<nav>
+	<ul>
+		<li><a href="/index.html"> Home</li>
+		<li><a href="/About.html"> About</li>
+		<li><a href="/Gallery.html"> Gallery</li>
+		<li><a href="/Contact.html"> Contact</li>
+	</ul>
+</nav>
     <p align="center">
-    	 <FONT SIZE="+2" color="orange"><b>You don't want to miss the nature</b>
+    	 <FONT SIZE="+2" color="green"><b>You don't want to miss the nature</b>
     	 </FONT>
     </p>
-    
-    <input type="text" name="username" align="right"><br>
-    <input type="text" name="password" align="left"><br>
-		<span>
-			<font size="+2" color="red">
-			<b>"एक आवारा,एक सज्जन,एक कवि,<br> एक सपने देखने वाला,एक अकेला आदमी,<br>हमेशा <i>रोमांस और रोमांच</i> की उम्मीद करते है."||</b><br></br>
-			</font>
-            <font size="+2" color="blue"><b>
-			"A tramp, a gentleman,a poet,<br>  a dreamer, a lonely fellow,<br>  always hopeful of <i>romance and adventure.</i>"
-			</b><font>
-		</span><br><br><br><br>
-		<font color="black"><center>&copy;Puchka</center></font>
+        <form action="/api/login" method="">
+        	<labe for=username>Username:</label>
+           	<input type="text" name="username" id="username" /><br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" length="8" /><br />
+            <input type="checkbox" name="Remeber" id="Remeber">
+            <label for="Remeber">Remembe Me </label><br>
 
+            <input type="submit" name="login-button">
+            <input type="reset" name="cancel-button">
+
+    		<a href="https://www.thrillophilia.com/adventure-tours-in-uttarakhand">
+    	</form>
+    		
+		<font color="black"><center><b>&copy;2018 Puchka</b>  </center></font>
 </body>
 </html>
