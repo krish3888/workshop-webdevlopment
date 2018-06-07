@@ -5,3 +5,10 @@ header {
         background-color: skyblue;
         border:2px solid black;
 }
+
+#main{
+	border: 5px solid #555;
+}
+#main label {
+      font-weight: bold;
+}
