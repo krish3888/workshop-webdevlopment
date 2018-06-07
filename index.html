@@ -2,26 +2,32 @@
 <html>
 <head>
 	<title>Adventures</title>
+	<!-- [if it IE 9] 
+     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <![endif]-->
+   <link rel="stylesheet" type="text/css" href="style.css">       
 </head>
 <body background="C:\Users\USER\Python Pro\spychat\adventure.JPG" >
-	<center>
+	<header>
+		<center>
 		<font size="+3" color="black"><b>Welcome To Adventure Tours in Uttarakhand</b></font>
-	</center>
-<nav>
-	<ul>
-		<li><a href="/index.html"> Home</li>
-		<li><a href="/About.html"> About</li>
-		<li><a href="/Gallery.html"> Gallery</li>
-		<li><a href="/Contact.html"> Contact</li>
-	</ul>
-</nav>
-    <p align="center">
-    	 <FONT SIZE="+2" color="green"><b>You don't want to miss the nature</b>
-    	 </FONT>
-    </p>
-        <form action="/api/login" method="">
+	    </center>
+        <nav>
+	        <ul>
+				<li><a href="/index.html"> Home</li>
+				<li><a href="/About.html"> About</li>
+				<li><a href="/Gallery.html"> Gallery</li>
+				<li><a href="/Contact.html"> Contact</li>
+			</ul>
+		</nav>
+	</header>	
+    	<p align="center">
+    		 <FONT SIZE="+2" color="green"><b>You don't want to miss the nature</b>
+    	 	 </FONT>
+    	</p>
+        <form action="/api/login" method="post">
         	<labe for=username>Username:</label>
-           	<input type="text" name="username" id="username" /><br />
+           	<input type="text" name="username" id="username" placeholder="xyz@gmail.com" /><br />
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" length="8" /><br />
             <input type="checkbox" name="Remeber" id="Remeber">
@@ -32,7 +38,8 @@
 
     		<a href="https://www.thrillophilia.com/adventure-tours-in-uttarakhand">
     	</form>
-    		
+    	<footer>	
 		<font color="black"><center><b>&copy;2018 Puchka</b>  </center></font>
+		</footer>
 </body>
 </html>
